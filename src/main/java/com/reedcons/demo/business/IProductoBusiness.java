@@ -9,6 +9,7 @@ public interface IProductoBusiness {
 	
 	public List<Producto> getAll() throws BusinessException;
 	public List<Producto> search(String parte) throws BusinessException;
+	public List<Producto> search(double precioDesde, double precioHasta) throws BusinessException;
 	public Producto getOne(int id) throws BusinessException, NotFoundException;
 	public Producto add(Producto producto) throws BusinessException;
 	public Producto update(Producto producto) throws BusinessException, NotFoundException;

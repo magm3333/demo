@@ -1,4 +1,4 @@
-package com.reedcons.demo.business;
+package com.reedcons.demo.business.impl;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -6,15 +6,17 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.reedcons.demo.business.BusinessException;
+import com.reedcons.demo.business.IProductoBusiness;
 import com.reedcons.demo.model.Producto;
 import com.reedcons.demo.model.exception.NotFoundException;
 
-@Service
-public class ProductoBusiness implements IProductoBusiness {
+//@Service
+public class ProductoBusinessOld implements IProductoBusiness {
 
 	private List<Producto> baseDeDatos = new ArrayList<Producto>();
 
-	public ProductoBusiness() {
+	public ProductoBusinessOld() {
 		baseDeDatos.add(new Producto(1, "Arroz", true, 43, null));
 		baseDeDatos.add(new Producto(2, "Leche", true, 33, new Date()));
 		baseDeDatos.add(new Producto(3, "Cerveza", true, 48, new Date()));
@@ -75,6 +77,12 @@ public class ProductoBusiness implements IProductoBusiness {
 		}
 		throw new NotFoundException();
 
+	}
+
+	@Override
+	public List<Producto> search(double precioDesde, double precioHasta) throws BusinessException {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

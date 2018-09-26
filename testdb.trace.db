@@ -1,0 +1,8 @@
+2018-09-19 11:18:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Error de Sintaxis en sentencia SQL "INSERT INTO PRODUCTO (ID,DESCRIPCION,EN_STOCK,PRECIO,EN_OFERTA) [*]"; se esperaba "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"
+Syntax error in SQL statement "INSERT INTO PRODUCTO (ID,DESCRIPCION,EN_STOCK,PRECIO,EN_OFERTA) [*]"; expected "DIRECT, SORTED, DEFAULT, VALUES, SET, (, WITH, SELECT, FROM"; SQL statement:
+insert into producto (id,descripcion,en_stock,precio,en_oferta) [42001-197]
+2018-09-26 09:52:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLException: Tabla "PRODUCTOS" no encontrada
+Table "PRODUCTOS" not found; SQL statement:
+delete from productos [42102-197]
