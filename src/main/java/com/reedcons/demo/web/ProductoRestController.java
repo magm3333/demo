@@ -20,7 +20,7 @@ import com.reedcons.demo.model.Producto;
 import com.reedcons.demo.model.exception.NotFoundException;
 
 @RestController
-@RequestMapping("/productos")
+@RequestMapping(Constantes.URL_PRODUCTOS)
 public class ProductoRestController {
 	
 	// IoC

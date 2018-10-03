@@ -16,7 +16,7 @@ import com.reedcons.demo.business.IRubroBusiness;
 import com.reedcons.demo.model.Rubro;
 
 @RestController
-@RequestMapping("/rubros")
+@RequestMapping(Constantes.URL_RUBROS)
 public class RubroRestController {
 
 	@Autowired

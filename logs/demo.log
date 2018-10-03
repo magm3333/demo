@@ -1,0 +1,6 @@
+03-10-2018 12:29:12.535 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 31009 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+03-10-2018 12:29:12.538 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+03-10-2018 12:29:12.539 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+03-10-2018 12:29:14.618 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+03-10-2018 12:29:15.051 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.597 seconds (JVM running for 2352.539)
+03-10-2018 12:29:15.054 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$9bf75b63.run - Los archivos se subirán a: subidos
