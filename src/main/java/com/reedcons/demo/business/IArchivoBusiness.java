@@ -15,6 +15,8 @@ public interface IArchivoBusiness {
 	public Archivo add(Archivo archivo) throws BusinessException;
 	public void delete(Archivo archivo) throws BusinessException, NotFoundException;
 	public List<Archivo> getAll() throws BusinessException;
+	public List<Archivo> getAll(String part) throws BusinessException;
+	public List<Archivo> getAll(long desde, long hasta) throws BusinessException;
 	
 	
 	

@@ -19,6 +19,14 @@ public class Archivo {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
+	public Archivo(int id, String nombre, long length, String mime) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.length = length;
+		this.mime = mime;
+	}
+
 	private String nombre;
 	private long length;
 	@Column(length = 50)
@@ -29,16 +37,12 @@ public class Archivo {
 	@Lob
 	private byte[] contenido;
 	
+	
+	// SGBD    -->   BACKEND(REST)    --> FRONTEND
+	
 	public Archivo() {
 	}
 	
-	public Archivo(int id, String nombre, long length, String mime) {
-		super();
-		this.id = id;
-		this.nombre = nombre;
-		this.length = length;
-		this.mime = mime;
-	}
 
 	public int getId() {
 		return id;

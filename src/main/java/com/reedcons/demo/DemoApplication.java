@@ -8,14 +8,16 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.reedcons.demo.business.impl.util.fs.ArchivoFSProperties;
 
-@SpringBootApplication
-@EnableConfigurationProperties({
-	ArchivoFSProperties.class
-})
+
+
+@SpringBootApplication(exclude= {SecurityAutoConfiguration.class})
+@EnableConfigurationProperties({ArchivoFSProperties.class})
 public class DemoApplication implements CommandLineRunner {
 	
 	private Logger log=LoggerFactory.getLogger(this.getClass());
@@ -35,11 +37,13 @@ public class DemoApplication implements CommandLineRunner {
 	//info 
 	//debug 
 	//trace <==
+	@Autowired
+	private PasswordEncoder encoder;
 	
 	@Override
 	public void run(String... args) throws Exception {
 		log.trace("DataSource={}",dataSource);
 		log.debug("Los archivos se subirán a: {}",archivoFSProperties.getDirectorioAlmacenamiento());
-		
+		log.debug("password codificada ={}",encoder.encode("password"));
 	}
 }
