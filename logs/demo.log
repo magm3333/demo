@@ -1,0 +1,434 @@
+17-10-2018 09:09:54.612 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 8872 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:09:54.616 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:09:54.631 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:10:06.907 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:10:08.140 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 14.535 seconds (JVM running for 15.226)
+17-10-2018 09:10:08.157 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$e18e0041.run - Los archivos se subirán a: subidos
+17-10-2018 09:10:08.360 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$e18e0041.run - password codificada =$2a$10$QIbp9sWh3jZQI8mLTezHz.Vt57./yzf6uuJV9zENBsxm7BbDtzeUC
+17-10-2018 09:12:17.880 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 8872 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:12:17.880 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:12:17.881 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:12:20.779 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:12:21.116 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.293 seconds (JVM running for 148.201)
+17-10-2018 09:12:21.119 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$e18e0041.run - Los archivos se subirán a: subidos
+17-10-2018 09:12:21.271 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$e18e0041.run - password codificada =$2a$10$pp.9cMu.2/5Ok12W1kF7POuFGpwAoATF/dt68sqz8UrxdkjscwayG
+17-10-2018 09:13:28.154 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 9127 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:13:28.156 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:13:28.160 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:13:37.614 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:13:38.416 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 10.771 seconds (JVM running for 11.609)
+17-10-2018 09:13:38.420 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$3bbe1228.run - Los archivos se subirán a: subidos
+17-10-2018 09:13:38.624 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$3bbe1228.run - password codificada =$2a$10$M1NKE3Jsf4XeKMSBTOfzzO1h9Qw2OiE3.KQPTBvDXXURHqsvI50em
+17-10-2018 09:33:32.633 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 9127 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:33:32.634 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:33:32.635 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:33:35.707 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:33:36.152 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.589 seconds (JVM running for 1209.345)
+17-10-2018 09:33:36.156 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$3bbe1228.run - Los archivos se subirán a: subidos
+17-10-2018 09:33:36.350 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$3bbe1228.run - password codificada =$2a$10$i6QrZsC1nK7U4T9Izhx9Q.FQ8UXKUNHgQq6Hh/EUsSEWJ1Zf1G1WG
+17-10-2018 09:34:51.716 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 10398 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:34:51.719 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:34:51.723 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:35:04.936 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:35:06.398 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 15.336 seconds (JVM running for 16.234)
+17-10-2018 09:35:06.407 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$2b4590ec.run - Los archivos se subirán a: subidos
+17-10-2018 09:35:06.647 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$2b4590ec.run - password codificada =$2a$10$IhND.KZW/18h.xnksVUvC.EzFA0GZMGFPY4VpT3D3n2A2tWsg4SDK
+17-10-2018 09:43:00.787 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 10398 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:43:00.787 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:43:00.788 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:43:05.050 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:43:05.479 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 4.78 seconds (JVM running for 495.315)
+17-10-2018 09:43:05.484 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$2b4590ec.run - Los archivos se subirán a: subidos
+17-10-2018 09:43:05.620 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$2b4590ec.run - password codificada =$2a$10$u5zpU9upzLOJ.XMNlaXt9ewdkB45wYcQlXCOjhTpBM9k6DCjZJoHm
+17-10-2018 09:46:20.641 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 10398 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:46:20.641 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:46:20.642 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:46:26.307 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:46:26.311 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:46:26.314 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:46:39.141 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:46:40.633 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 15.08 seconds (JVM running for 16.046)
+17-10-2018 09:46:40.646 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 09:46:41.134 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$JSP69ZewDj8RxzqhTLaADeJhbWnMHQacfyKxbL1uCLxxu7sfIpctq
+17-10-2018 09:47:44.500 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:47:44.501 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:47:44.502 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:47:48.003 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:47:48.639 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 4.261 seconds (JVM running for 84.052)
+17-10-2018 09:47:48.646 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 09:47:48.893 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$BbOWpMwPCpXVfpR6.Sv4V.jyhPuB4Qyzp17qWZIrX2uMedpO3Nr8i
+17-10-2018 09:54:29.147 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:54:29.148 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:54:29.148 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:54:31.676 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:54:32.090 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.984 seconds (JVM running for 487.503)
+17-10-2018 09:54:32.094 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 09:54:32.263 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$g2QXx8/SjdVGo4xQxoLlPO5sAP7q4.JriatqBO2vXQRaVa7G3AD6G
+17-10-2018 09:55:07.568 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:55:07.570 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:55:07.570 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:55:10.325 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:55:11.023 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.499 seconds (JVM running for 526.436)
+17-10-2018 09:55:11.027 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 09:55:11.443 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$TCVnJ8us/rOQ1DUx5UoJOuIEhHzpt9aClbnd.45.KGAbGvmDu1see
+17-10-2018 09:58:10.880 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:58:10.881 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:58:10.882 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:58:13.175 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:58:13.477 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.64 seconds (JVM running for 708.89)
+17-10-2018 09:58:13.479 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 09:58:13.588 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$M4FvENuxfDTkPEFexxNH3uBgb.dokN25R6YrebJd.MdUzDaV7PgBO
+17-10-2018 09:59:18.434 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:59:18.434 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:59:18.435 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:59:20.675 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:59:21.151 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.751 seconds (JVM running for 776.564)
+17-10-2018 09:59:21.154 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 09:59:21.301 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$Ibv8pc06KB16VpNllHpNHuwyTWl1LVc4hqlf2VT/XGGJsgKB3qjSi
+17-10-2018 09:59:35.908 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 09:59:35.909 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 09:59:35.909 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 09:59:38.034 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 09:59:38.255 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.366 seconds (JVM running for 793.668)
+17-10-2018 09:59:38.257 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 09:59:38.356 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$9959lNOOWL49aD9ydkUTROs21lmFGaaJO4Zhc2qXi0C0vSs59evIu
+17-10-2018 10:00:26.281 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:00:26.283 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:00:26.283 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:00:28.011 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:00:28.217 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.003 seconds (JVM running for 843.63)
+17-10-2018 10:00:28.220 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 10:00:28.348 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$46NcKIfrWoDXa/YRT2lo/.W118h3QTzbQg4fkY3X61schhfOH/oWW
+17-10-2018 10:01:43.442 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:01:43.442 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:01:43.442 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:01:44.854 WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreRestController' defined in file [/home/mariano/workspace-reedcons/demo/target/classes/com/reedcons/demo/web/CoreRestController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.reedcons.demo.web.CoreRestController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+17-10-2018 10:01:44.906 ERROR org.springframework.boot.SpringApplication.reportFailure - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'coreRestController' defined in file [/home/mariano/workspace-reedcons/demo/target/classes/com/reedcons/demo/web/CoreRestController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.reedcons.demo.web.CoreRestController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1229) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1128) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762) [spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398) [spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330) [spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258) [spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246) [spring-boot-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+	at com.reedcons.demo.DemoApplication.main(DemoApplication.java:26) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_181]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.0.4.RELEASE.jar:2.0.4.RELEASE]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.reedcons.demo.web.CoreRestController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:182) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1221) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	... 22 common frames omitted
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	Syntax error, insert "enum Identifier" to complete EnumHeader
+	Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+	at com.reedcons.demo.web.CoreRestController.<init>(CoreRestController.java:17) ~[classes/:na]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_181]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_181]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_181]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_181]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:170) ~[spring-beans-5.0.8.RELEASE.jar:5.0.8.RELEASE]
+	... 24 common frames omitted
+17-10-2018 10:02:06.386 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:02:06.386 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:02:06.387 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:02:08.212 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:02:08.715 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.362 seconds (JVM running for 944.128)
+17-10-2018 10:02:08.718 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 10:02:08.857 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$/7w83xj6ZYjNY6CWBtoxee9F.ycAEDWRfpVviVkMj/xDqoEL67O9q
+17-10-2018 10:04:32.694 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 11130 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:04:32.694 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:04:32.695 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:04:34.352 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:04:34.737 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 2.064 seconds (JVM running for 1090.15)
+17-10-2018 10:04:34.739 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - Los archivos se subirán a: subidos
+17-10-2018 10:04:34.855 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$926700f9.run - password codificada =$2a$10$S29aulTZGpzINtjAS.l2Ce9gcvAs8w7cqYixDbo4oz3Xm86h8IbpK
+17-10-2018 10:05:24.491 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 12465 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:05:24.495 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:05:24.504 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:05:37.291 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:05:38.947 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 15.127 seconds (JVM running for 16.044)
+17-10-2018 10:05:38.957 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - Los archivos se subirán a: subidos
+17-10-2018 10:05:39.321 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - password codificada =$2a$10$fW/P7uEe9eEovXYRXHwoP.lwbsFaEm8IjbeY4/GUxAKLHk7p/x6OS
+17-10-2018 10:20:51.549 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 12465 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:20:51.550 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:20:51.550 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:20:55.164 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:20:55.757 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 4.268 seconds (JVM running for 932.869)
+17-10-2018 10:20:55.771 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - Los archivos se subirán a: subidos
+17-10-2018 10:20:56.025 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - password codificada =$2a$10$ngIIIg1MaVle7NWxUmKvx.TijyX/9rn5AHnOpSGEQEMRH5s4t12m6
+17-10-2018 10:21:19.727 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 12465 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:21:19.728 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:21:19.729 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:21:23.030 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:21:23.558 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.936 seconds (JVM running for 960.67)
+17-10-2018 10:21:23.561 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - Los archivos se subirán a: subidos
+17-10-2018 10:21:23.745 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - password codificada =$2a$10$TeSYOwZvUo8S6tcwy0Sb4O2DOguwqBlfx8Wt6OP0M9n0T6J0MkNx6
+17-10-2018 10:24:00.931 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 12465 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:24:00.937 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:24:00.938 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:24:04.458 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:24:05.022 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 4.167 seconds (JVM running for 1122.134)
+17-10-2018 10:24:05.026 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - Los archivos se subirán a: subidos
+17-10-2018 10:24:05.163 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - password codificada =$2a$10$u0xxhpxgribAx3J1idr5D.wlR0of7q.9noluyXhyKGSDZiwZnfHlW
+17-10-2018 10:24:16.069 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 12465 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:24:16.070 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:24:16.070 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:24:19.315 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:24:19.707 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.675 seconds (JVM running for 1136.82)
+17-10-2018 10:24:19.710 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - Los archivos se subirán a: subidos
+17-10-2018 10:24:19.917 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$318e8726.run - password codificada =$2a$10$mixfnkAr9A4BuyySxb5mEOYEDKDAhCk9coiZ8iyqyJZHKsLjyV6ji
+17-10-2018 10:49:50.599 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 15666 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 10:49:50.614 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 10:49:50.623 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 10:50:26.999 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 10:50:28.858 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 40.357 seconds (JVM running for 42.073)
+17-10-2018 10:50:28.873 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$4e4490c6.run - Los archivos se subirán a: subidos
+17-10-2018 10:50:29.005 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$4e4490c6.run - password codificada =$2a$10$5FNpj5Tyw5QF47nCrdQZluztHFTlejF2NEBQgwibj.cXUx9LstUba
+17-10-2018 11:01:52.808 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 15666 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:01:52.809 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:01:52.811 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:01:57.188 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:01:57.812 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 5.113 seconds (JVM running for 731.027)
+17-10-2018 11:01:57.822 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$4e4490c6.run - Los archivos se subirán a: subidos
+17-10-2018 11:01:58.020 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$4e4490c6.run - password codificada =$2a$10$GzGByNSw5Vlq99KKZWMehO/myJR5LaHl1jli3EG0FklSHfSTQNeH.
+17-10-2018 11:18:35.448 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 17925 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:18:35.451 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:18:35.454 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:18:47.557 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:18:48.801 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 14.028 seconds (JVM running for 15.164)
+17-10-2018 11:18:48.805 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$20a15b04.run - Los archivos se subirán a: subidos
+17-10-2018 11:18:49.047 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$20a15b04.run - password codificada =$2a$10$grikZG.qZCoHLgbGv4QZt.UvU/RwpN8bjuhUajvDNwP.xxvZRrWZq
+17-10-2018 11:19:27.981 WARN  org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder.matches - Encoded password does not look like BCrypt
+17-10-2018 11:21:40.405 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.reedcons.demo.model.User.roles, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:582)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:201)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:561)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:132)
+	at org.hibernate.collection.internal.PersistentSet.iterator(PersistentSet.java:163)
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1821)
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:408)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:480)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.reedcons.demo.model.User.getAuthorities(User.java:79)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.createSuccessAuthentication(AbstractUserDetailsAuthenticationProvider.java:225)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:197)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+17-10-2018 11:21:58.823 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18190 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:21:58.825 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:21:58.830 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:22:12.374 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:22:13.518 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 15.383 seconds (JVM running for 16.131)
+17-10-2018 11:22:13.523 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$177bb992.run - Los archivos se subirán a: subidos
+17-10-2018 11:22:13.723 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$177bb992.run - password codificada =$2a$10$Y8Mb3mixYC14kTNFTmlgoeVyZMCVbHBOXPf2J.G7nVCbAuflE0FD.
+17-10-2018 11:22:16.506 ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.reedcons.demo.model.User.roles, could not initialize proxy - no Session
+	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:582)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:201)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:561)
+	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:132)
+	at org.hibernate.collection.internal.PersistentSet.iterator(PersistentSet.java:163)
+	at java.util.Spliterators$IteratorSpliterator.estimateSize(Spliterators.java:1821)
+	at java.util.Spliterator.getExactSizeIfKnown(Spliterator.java:408)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:480)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at com.reedcons.demo.model.User.getAuthorities(User.java:79)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.createSuccessAuthentication(AbstractUserDetailsAuthenticationProvider.java:225)
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:197)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174)
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199)
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:357)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:270)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:155)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:123)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:800)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1471)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+17-10-2018 11:25:33.051 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18190 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:25:33.056 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:25:33.056 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:25:35.777 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:25:36.407 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.422 seconds (JVM running for 219.02)
+17-10-2018 11:25:36.415 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$177bb992.run - Los archivos se subirán a: subidos
+17-10-2018 11:25:36.546 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$177bb992.run - password codificada =$2a$10$da8Z7jghzHETKJipDQYAZuhQWkamrV0NFvuU.D4oF4DeNcNLZ.RTe
+17-10-2018 11:25:47.747 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18533 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:25:47.749 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:25:47.762 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:26:02.425 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:26:04.319 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 17.358 seconds (JVM running for 18.187)
+17-10-2018 11:26:04.324 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - Los archivos se subirán a: subidos
+17-10-2018 11:26:04.757 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - password codificada =$2a$10$eVlo15yO8X3oAk40TNrDUeTD2vgYymWT9PeWUKLcUB3oOWc.g5RB6
+17-10-2018 11:27:15.911 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18533 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:27:15.912 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:27:15.914 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:27:20.082 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:27:20.769 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 4.925 seconds (JVM running for 94.637)
+17-10-2018 11:27:20.786 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - Los archivos se subirán a: subidos
+17-10-2018 11:27:21.090 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - password codificada =$2a$10$2gaAWvyZ4EXgpluRlLkukO0iAISYbW34Cy5jOYk.E1WGH/PQXSn3C
+17-10-2018 11:36:45.823 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18533 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:36:45.824 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:36:45.836 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:36:49.275 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:36:49.721 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 4.038 seconds (JVM running for 663.588)
+17-10-2018 11:36:49.729 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - Los archivos se subirán a: subidos
+17-10-2018 11:36:49.964 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - password codificada =$2a$10$5Lh8R1joRmu1xFf9ExeAkeR81GhrfhJ0EXewR0dCBXHWtnRr8wBRy
+17-10-2018 11:36:53.703 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18533 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:36:53.703 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:36:53.704 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:36:56.438 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:36:57.023 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.376 seconds (JVM running for 670.89)
+17-10-2018 11:36:57.036 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - Los archivos se subirán a: subidos
+17-10-2018 11:36:57.174 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - password codificada =$2a$10$9Ziq4yDgAXhYYA6aoZg2cOi6spCEjDb2KeF2JuVC5YAXiEQXYKTOO
+17-10-2018 11:37:34.116 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18533 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:37:34.116 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:37:34.117 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:37:36.868 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:37:37.291 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.239 seconds (JVM running for 711.158)
+17-10-2018 11:37:37.294 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - Los archivos se subirán a: subidos
+17-10-2018 11:37:37.409 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - password codificada =$2a$10$Qp50TFSUQqnmTW5F3Yb4YOEuj8QYIIScqt1PdJtFHbURGseFlx.DS
+17-10-2018 11:42:15.634 INFO  com.reedcons.demo.DemoApplication.logStarting - Starting DemoApplication on m-lat with PID 18533 (/home/mariano/workspace-reedcons/demo/target/classes started by mariano in /home/mariano/workspace-reedcons/demo)
+17-10-2018 11:42:15.634 DEBUG com.reedcons.demo.DemoApplication.logStarting - Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+17-10-2018 11:42:15.635 INFO  com.reedcons.demo.DemoApplication.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+17-10-2018 11:42:18.534 WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17-10-2018 11:42:19.007 INFO  com.reedcons.demo.DemoApplication.logStarted - Started DemoApplication in 3.42 seconds (JVM running for 992.874)
+17-10-2018 11:42:19.012 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - Los archivos se subirán a: subidos
+17-10-2018 11:42:19.130 DEBUG com.reedcons.demo.DemoApplication$$EnhancerBySpringCGLIB$$fe8b70f3.run - password codificada =$2a$10$kRA3YNy1MSpBSDzVXZnLB.HcX6KEHIgV/7.39smJc391Vq9UtSX.m

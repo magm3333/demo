@@ -1,5 +1,8 @@
 package com.reedcons.demo;
 
+import javax.sql.DataSource;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,18 +10,27 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.security.web.authentication.rememberme.JdbcTokenRepositoryImpl;
+import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
+
+import com.reedcons.demo.web.Constantes;
 
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
+	@Autowired
+	private UserDetailsService userDetailsService;
 	@Override
 	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-		auth.inMemoryAuthentication().withUser("user").password(passwordEncoder().encode("password")).roles("USER")
-				.and().withUser("admin").password(passwordEncoder().encode("password")).roles("USER", "ADMIN");
+		//auth.inMemoryAuthentication().withUser("user").password(passwordEncoder().encode("password")).roles("USER")
+		//		.and().withUser("admin").password(passwordEncoder().encode("password")).roles("USER", "ADMIN");
 
+		
+		auth.userDetailsService(userDetailsService);
 	}
 
 	@Bean
@@ -28,22 +40,35 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
 	@Value("${recursos.estaticos}")
 	private String recursosNoProtegidos;
-	
+
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		String[] resources = recursosNoProtegidos.split(",");
 		http.authorizeRequests().antMatchers(resources).permitAll().anyRequest().authenticated();
 
-		http.httpBasic();
+		// http.httpBasic();
 
-		http.formLogin().loginPage("/login.html").defaultSuccessUrl("/index.html").loginProcessingUrl("/dologin").permitAll()
-				.failureUrl("/login.html");
-		
-		http.logout().logoutSuccessUrl("/logout.html");
-		
-		http.rememberMe().rememberMeParameter("rm");
+		http.formLogin().loginPage(Constantes.URL_DENY).defaultSuccessUrl(Constantes.URL_LOGINOK)
+				.loginProcessingUrl("/dologin").permitAll().failureUrl(Constantes.URL_DENY);
+
+		http.logout().logoutSuccessUrl("/logout.html").deleteCookies("rmdemo", "JSESSIONID").clearAuthentication(true);
+
+		http.rememberMe().tokenRepository(persistentTokenRepository()).alwaysRemember(true)
+				.rememberMeCookieName("rmdemo").tokenValiditySeconds(60 * 60 * 24);
 
 		http.csrf().disable();
 
 	}
+
+	@Autowired
+	private DataSource dataSource;
+
+	@Bean
+	public PersistentTokenRepository persistentTokenRepository() {
+		final JdbcTokenRepositoryImpl jdbcTokenRepository = new JdbcTokenRepositoryImpl();
+		jdbcTokenRepository.setDataSource(dataSource);
+		return jdbcTokenRepository;
+
+	}
+
 }
