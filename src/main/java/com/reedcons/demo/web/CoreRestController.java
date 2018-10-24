@@ -22,6 +22,10 @@ public class CoreRestController extends BaseRestController {
 	public ResponseEntity<UserSintetico> loginok() {
 		return new ResponseEntity<UserSintetico>(new UserSintetico(getUserPrincipal()), HttpStatus.OK);
 	}
+	@GetMapping(Constantes.URL_LOGOUTOK)
+	public ResponseEntity<String> logoutok() {
+		return new ResponseEntity<String>(HttpStatus.OK);
+	}
 }
 
 class UserSintetico {

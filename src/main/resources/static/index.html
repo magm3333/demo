@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" src="modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
 <meta charset="UTF-8">
 <title>Demo</title>
 </head>
-<body>
-	<h1>Demo</h1>
+<body ng-app="demo">
+	{{ 2==2 }}
+	
+	<div ng-controller="ctrl-div1">
+		
+		{{titulo}}
+		<br/>
+		{{numero}}
+		<br/>
+		<span style='font-size: {{size}}px'>Bla bla bla bla</span>
+		<br/>
+		<input type="number" ng-model="size">		
+	</div>
+	
 </body>
 </html>
