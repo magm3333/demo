@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="modules/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="modules/bootstrap/dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="modules/font-awesome/web-fonts-with-css/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="modules/angular-bootstrap/ui-bootstrap-csp.css">
+
+
+<script type="text/javascript" src="modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="modules/jquery-ui/jquery-ui.min.js"></script>
 <script type="text/javascript" src="modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="modules/angular-route/angular-route.min.js"></script>
+
+
 <script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="config/config.js"></script>
 <script type="text/javascript" src="controllers/primero.controller.js"></script>
+<script type="text/javascript" src="controllers/segundo.controller.js"></script>
+<script type="text/javascript" src="controllers/main.controller.js"></script>
 <meta charset="UTF-8">
 <title>Demo</title>
 </head>
 <body ng-app="demo">
-
+	
+	<div ng-view="">
+	</div>
 	
 
+	<hr/>
 	{{ 2==2 }}
 	<div ng-controller="ctrl-div1">
 		
