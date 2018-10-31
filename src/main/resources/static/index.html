@@ -3,12 +3,15 @@
 <head>
 <script type="text/javascript" src="modules/angular/angular.min.js"></script>
 <script type="text/javascript" src="app.js"></script>
+<script type="text/javascript" src="controllers/primero.controller.js"></script>
 <meta charset="UTF-8">
 <title>Demo</title>
 </head>
 <body ng-app="demo">
-	{{ 2==2 }}
+
 	
+
+	{{ 2==2 }}
 	<div ng-controller="ctrl-div1">
 		
 		{{titulo}}
@@ -18,6 +21,13 @@
 		<span style='font-size: {{size}}px'>Bla bla bla bla</span>
 		<br/>
 		<input type="number" ng-model="size">		
+	</div>
+	<hr/>
+	<div ng-controller="ctrl-div2">
+		<input type="checkbox" ng-model="chk1">
+		<span ng-hide="chk1">Valor Check1</span>
+		
+		
 	</div>
 	
 </body>
