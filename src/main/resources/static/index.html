@@ -18,9 +18,22 @@
 <script type="text/javascript" src="controllers/primero.controller.js"></script>
 <script type="text/javascript" src="controllers/segundo.controller.js"></script>
 <script type="text/javascript" src="controllers/main.controller.js"></script>
+<script type="text/javascript" src="controllers/productos.controller.js"></script>
+<script type="text/javascript" src="services/productos.service.js"></script>
+
+
+
 <meta charset="UTF-8">
 <title>Demo</title>
 </head>
+<style>
+.pointer {
+	cursor: pointer;
+}
+.espacioderecha {
+	margin-right: 10px;
+}
+</style>
 <body ng-app="demo">
 	
 	<div ng-view="">
@@ -28,6 +41,8 @@
 	
 
 	<hr/>
+	
+	<div ng-hide="true">
 	{{ 2==2 }}
 	<div ng-controller="ctrl-div1">
 		
@@ -46,6 +61,6 @@
 		
 		
 	</div>
-	
+	</div>
 </body>
 </html>

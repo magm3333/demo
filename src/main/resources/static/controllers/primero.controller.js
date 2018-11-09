@@ -1,5 +1,5 @@
 angular.module('demo')
-.controller('primeroController',function($scope,$rootScope,$sce){
+.controller('primeroController',function($scope,$rootScope,$sce,$filter){
 	$scope.titulo="Productos";
 	
 	$scope.data=[
@@ -9,6 +9,8 @@ angular.module('demo')
 		{id:4, descripcion:'Chupetín', precio: 5.30, enStock:true, enOferta:false}
 	];
 	
+	$scope.lista1=$filter('orderBy')($scope.data, '-enStock');
+	
 	$scope.ponerEnOferta=function() {
 		$scope.data.forEach(function(o,i){
 			if(o.id==$scope.id) {
@@ -17,3 +19,5 @@ angular.module('demo')
 		});
 	};
 });
+
+//var lista = $filter('orderBy')($scope.data, 'enStock');

@@ -1,5 +1,8 @@
 var app=angular.module('demo',['ngRoute']);
 
+
+app.constant('URL_API_BASE','http://localhost:8080/api/v1/');
+
 app.filter(
 		'highlight',
 		function($sce) {
@@ -18,7 +21,7 @@ app.run(['$rootScope','$log','$location',function($rootScope,$log,$location){
 	$log.log('Iniciando aplicación');
 	$rootScope.titulo="Valor por defecto";
 	$rootScope.relocate=function(loc){
-		$location.path(loc);
+		$location.path(loc); 
 	};
 }]);
 

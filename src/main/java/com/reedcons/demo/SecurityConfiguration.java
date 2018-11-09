@@ -50,7 +50,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		String[] resources = recursosNoProtegidos.split(",");
-		http.authorizeRequests().antMatchers(resources).permitAll().anyRequest().authenticated();
+		//http.authorizeRequests().antMatchers(resources).permitAll().anyRequest().authenticated();
+		http.authorizeRequests().antMatchers("/**").permitAll();
 		// http.httpBasic();
 		http.formLogin().loginPage(Constantes.URL_DENY).defaultSuccessUrl(Constantes.URL_LOGINOK)
 				.loginProcessingUrl("/dologin").permitAll().failureUrl(Constantes.URL_DENY);
