@@ -1,7 +1,7 @@
 angular.module('demo')
 
 .controller('productosController',
-		function($scope, $http, $log, productosService) {
+		function($rootScope,$scope, $http, $log, productosService) {
 			$scope.titulo = "Productos";
 
 			$scope.data = [];
@@ -76,7 +76,6 @@ angular.module('demo')
 					$scope.instancia.descripcion.length>2 && 
 					$scope.instancia.precio && $scope.instancia.precio>0;
 			};
-
-			$scope.refresh();
+			$rootScope.authInfo($scope.refresh);
 			$scope.cleanInstance();
 		});// End productosController

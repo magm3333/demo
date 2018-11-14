@@ -50,18 +50,21 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		String[] resources = recursosNoProtegidos.split(",");
-		//http.authorizeRequests().antMatchers(resources).permitAll().anyRequest().authenticated();
-		http.authorizeRequests().antMatchers("/**").permitAll();
+		http.authorizeRequests().antMatchers(resources).permitAll().anyRequest().authenticated();
+		//http.authorizeRequests().antMatchers("/**").permitAll();
 		// http.httpBasic();
 		http.formLogin().loginPage(Constantes.URL_DENY).defaultSuccessUrl(Constantes.URL_LOGINOK)
 				.loginProcessingUrl("/dologin").permitAll().failureUrl(Constantes.URL_DENY);
 		http.logout().logoutSuccessUrl(Constantes.URL_LOGOUTOK)
-			.deleteCookies("rmdemo", "JSESSIONID").clearAuthentication(true);
-		http.rememberMe().tokenRepository(persistentTokenRepository()).alwaysRemember(true)
-				.rememberMeCookieName("rmdemo").tokenValiditySeconds(60 * 60 * 24);
+			.deleteCookies("rmdemo", "SESSION").clearAuthentication(true);
+		
+		//http.rememberMe().tokenRepository(persistentTokenRepository()).alwaysRemember(true)
+		//		.rememberMeCookieName("rmdemo").tokenValiditySeconds(60 * 60 * 24);
 		http.csrf().disable();
 	}
 
+	
+	
 	@Autowired
 	private DataSource dataSource;
 
