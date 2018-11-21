@@ -14,8 +14,6 @@ public interface ArchivoRepository extends JpaRepository<Archivo, Integer>{
     //JPA  --> HIBERNATE
 	//JPQL --> HQL
 	
-	
-	
 	@Query("SELECT new com.reedcons.demo.model.Archivo(a.id, a.nombre, a.length, a.mime) FROM Archivo a")
 	public List<Archivo> findAllFiles();
 	

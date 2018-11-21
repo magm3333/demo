@@ -15,4 +15,5 @@ public interface ProductoRepository extends JpaRepository<Producto, Integer>{
 	
 	public List<Producto> findByDescripcionContaining(String q) throws BusinessException;
 	public List<Producto> findByPrecioBetween(double precioDesde, double precioHasta) throws BusinessException;
+
 }

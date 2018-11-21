@@ -10,6 +10,7 @@ import com.reedcons.demo.business.IUserBusiness;
 import com.reedcons.demo.model.User;
 import com.reedcons.demo.model.exception.NotFoundException;
 import com.reedcons.demo.model.persistence.UserRepository;
+import com.reedcons.demo.model.util.UserDTO;
 
 @Service
 public class UserBusiness implements IUserBusiness {
@@ -29,4 +30,58 @@ public class UserBusiness implements IUserBusiness {
 		}
 
 	}
+
+	@Override
+	public List<UserDTO> listUsersSintetico(boolean enabled) throws BusinessException {
+		try {
+			return userDAO.listUsersSintetico(enabled);
+			
+		} catch (Exception e) {
+			throw new BusinessException(e);
+		}
+	}
+
+	@Override
+	public void setPassword(String password, String userOrEmail) throws BusinessException, NotFoundException {
+		try {
+			if( userDAO.setPassword(password, userOrEmail, userOrEmail)==0) {
+				throw new NotFoundException("No se encontró el usuario "+userOrEmail);
+			}
+		} catch (Exception e) {
+			throw new BusinessException(e);
+		}
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

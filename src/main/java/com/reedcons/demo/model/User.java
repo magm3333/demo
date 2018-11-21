@@ -6,7 +6,10 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import javax.persistence.Cacheable;
 import javax.persistence.Column;
+import javax.persistence.ColumnResult;
+import javax.persistence.ConstructorResult;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -15,12 +18,41 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.NamedNativeQueries;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.SqlResultSetMapping;
+import javax.persistence.SqlResultSetMappings;
 import javax.persistence.Table;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.reedcons.demo.model.util.UserDTO;
+
+@NamedNativeQueries({
+		@NamedNativeQuery(
+			name="usuarioResumido",
+			query="SELECT username,email,account_non_expired  as accnotexp FROM users WHERE enabled=?",
+			resultSetMapping="userToUserDTO"
+		)
+})
+@SqlResultSetMappings({
+	@SqlResultSetMapping(
+		name="userToUserDTO",
+		classes = {
+			@ConstructorResult(
+				targetClass=UserDTO.class,
+				columns= {
+					@ColumnResult(name="username", type=String.class),
+					@ColumnResult(name="email", type=String.class),
+					@ColumnResult(name="accnotexp", type=Boolean.class)
+				}
+			)
+		}
+	)
+})
+@Cacheable(value=true)
 @Entity
 @Table(name = "users")
 public class User implements UserDetails {

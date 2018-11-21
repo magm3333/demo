@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import com.reedcons.demo.business.IUserBusiness;
 import com.reedcons.demo.business.impl.util.fs.ArchivoFSProperties;
 
 
@@ -40,10 +41,17 @@ public class DemoApplication implements CommandLineRunner {
 	@Autowired
 	private PasswordEncoder encoder;
 	
+	
+	@Autowired
+	private IUserBusiness uService;
+	
 	@Override
 	public void run(String... args) throws Exception {
 		log.trace("DataSource={}",dataSource);
 		log.debug("Los archivos se subirán a: {}",archivoFSProperties.getDirectorioAlmacenamiento());
 		log.debug("password codificada ={}",encoder.encode("password"));
+		
+		uService.setPassword(encoder.encode("123"), "user");
+		
 	}
 }
