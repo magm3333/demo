@@ -36,7 +36,7 @@ public class CoreRestController extends BaseRestController {
 		return new ResponseEntity<String>(HttpStatus.OK);
 	}
 	
-	@Value("${software.version}")
+	@Value("${version}")
 	private String version;
 	
 	
