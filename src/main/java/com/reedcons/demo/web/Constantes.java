@@ -17,4 +17,5 @@ public final class Constantes {
 	public static final String URL_RUBROS = URL_BASE + "/rubros";
 	public static final String URL_ARCHIVOS = URL_BASE + "/archivos";
 	public static final String URL_TEST = URL_BASE + "/test";
+	public static final String URL_VERSION = "/version";
 }

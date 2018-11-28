@@ -51,7 +51,7 @@ public class DemoApplication implements CommandLineRunner {
 		log.debug("Los archivos se subirán a: {}",archivoFSProperties.getDirectorioAlmacenamiento());
 		log.debug("password codificada ={}",encoder.encode("password"));
 		
-		uService.setPassword(encoder.encode("123"), "user");
+		//uService.setPassword(encoder.encode("password"), "user");
 		
 	}
 }

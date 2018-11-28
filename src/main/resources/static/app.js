@@ -5,8 +5,8 @@ var app=angular.module('demo',
 		'chart.js', 'ngStomp', 'uiSwitch']);
 
 
-app.constant('URL_API_BASE','http://localhost:8080/api/v1/');
-app.constant('URL_BASE','http://localhost:8080/');
+app.constant('URL_API_BASE','/api/v1/');
+app.constant('URL_BASE','/');
 
 
 
@@ -73,7 +73,9 @@ app.run(['$rootScope','$log','$location','$uibModal','coreService',function($roo
 			}
 		});
 	}
-
+	coreService.version().then(
+			function(resp){$rootScope.softwareVersion=resp.data.version;}
+	);
 	$rootScope.logout = function() {						
 		coreService.logout().then(function(r){
 			$rootScope.cleanLoginData();

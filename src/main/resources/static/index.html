@@ -91,6 +91,7 @@
     
 
       <ul ng-show="autenticado" style="margin-top: 10px" class="nav navbar-nav navbar-right">
+      	<li>version: <strong style="padding-right: 5px">{{softwareVersion}}</strong> </li>
         <li>(<i class="fas fa-user-ninja"></i> {{user.name}})</li>
         <li><span ng-click="logout()" style ="padding-right: 5px; padding-left: 10px" class="pointer"><strong>logout</strong></span></li>
       </ul>

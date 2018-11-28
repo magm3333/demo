@@ -16,6 +16,9 @@ angular.module('demo')
 						data: 'remember-me=true&username='+user.name+'&password='+user.password
 					};
 					return $http(req);
+				},
+				version: function() {
+					 return $http.get(URL_BASE+"version");
 				}
 		}
 	}
