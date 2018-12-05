@@ -16,6 +16,11 @@ public final class Constantes {
 	public static final String URL_PRODUCTOS = URL_BASE + "/productos";
 	public static final String URL_RUBROS = URL_BASE + "/rubros";
 	public static final String URL_ARCHIVOS = URL_BASE + "/archivos";
+	public static final String URL_GRAPH = URL_BASE + "/graph";
 	public static final String URL_TEST = URL_BASE + "/test";
 	public static final String URL_VERSION = "/version";
+	
+	
+	public static final String TOPIC_SEND_WEBSOCKET_GRAPH= "/reedcons/graph";
+	public static final String URL_WEBSOCKET_ENPOINT =  URL_BASE + "/ws";
 }

@@ -9,6 +9,10 @@ angular.module('demo')
 			templateUrl: 'views/main.html',
 			controller: 'mainController'
 		})
+		.when('/grafico',{
+			templateUrl: 'views/grafico.html',
+			controller: 'graficoController'
+		})
 		.when('/productos',{
 			templateUrl: 'views/productos.html',
 			controller: 'productosController'

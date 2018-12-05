@@ -7,7 +7,7 @@ var app=angular.module('demo',
 
 app.constant('URL_API_BASE','/api/v1/');
 app.constant('URL_BASE','/');
-
+app.constant('URL_WS', '/api/v1/ws');
 
 
 app.filter(
@@ -24,12 +24,15 @@ app.filter(
 			}
 		});
 
-app.run(['$rootScope','$log','$location','$uibModal','coreService',function($rootScope,$log,$location,$uibModal,coreService){
+app.run(['$rootScope','$log','$location','$uibModal','coreService','$stomp',function($rootScope,$log,$location,$uibModal,coreService,$stomp){
 	$log.log('Iniciando aplicación');
 	$rootScope.titulo="Valor por defecto";
 	$rootScope.relocate=function(loc){
 		$location.path(loc); 
 	};
+	
+	
+	$rootScope.stomp=$stomp;
 	
 	$rootScope.cleanLoginData = function() {
 		$rootScope.autenticado = false;
