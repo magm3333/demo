@@ -7,10 +7,11 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.messaging.simp.SimpMessagingTemplate;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Service;
 
 import com.reedcons.demo.business.IGraphBusiness;
+import com.reedcons.demo.events.SendWebSocketEvent;
 import com.reedcons.demo.model.util.ChangeStateMessage;
 import com.reedcons.demo.model.util.LabelValue;
 import com.reedcons.demo.web.Constantes;
@@ -24,7 +25,7 @@ public class GraphBusiness implements IGraphBusiness {
 				.split(",");
 		List<LabelValue> valores = Arrays.stream(meses).map(mes -> {
 			LabelValue lv=new LabelValue(mes, ((int) (Math.random() * 100)));
-			log.info(lv.toString());
+			//log.info(lv.toString());
 			return lv;
 		}).collect(Collectors.toList());
 
@@ -33,12 +34,17 @@ public class GraphBusiness implements IGraphBusiness {
 				new ChangeStateMessage<List<LabelValue>>(
 						ChangeStateMessage.TYPE_GRAPH_DATA, valores);
 		
-		wSock.convertAndSend(Constantes.TOPIC_SEND_WEBSOCKET_GRAPH,envio);
-
+		//wSock.convertAndSend(Constantes.TOPIC_SEND_WEBSOCKET_GRAPH,envio);
+		applicationEventPublisher.publishEvent(new SendWebSocketEvent(envio, Constantes.TOPIC_SEND_WEBSOCKET_GRAPH) );
 	}
 	
 	@Autowired
-	private SimpMessagingTemplate wSock;
+	private ApplicationEventPublisher applicationEventPublisher;
+	
+
+	
+	//@Autowired
+	//private SimpMessagingTemplate wSock;
 
 }
 
